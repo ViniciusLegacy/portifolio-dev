@@ -43,6 +43,7 @@ body {
     span {
         color: var(--red);
         font: var(--subtitle);
+        margin-bottom: 8px;
     }
 
     h3 {
