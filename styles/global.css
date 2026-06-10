@@ -31,4 +31,21 @@
 body {
     color: var(--gray-100);
     font: var(--text-sm);
+    background-color: var(--gray-500);
+}
+
+.headers {
+    max-width: 1040px;
+    margin-inline: auto;
+    justify-items: center;
+    padding-top: 80px;
+    
+    span {
+        color: var(--red);
+        font: var(--subtitle);
+    }
+
+    h3 {
+        font: var(--title-md);
+    }
 }

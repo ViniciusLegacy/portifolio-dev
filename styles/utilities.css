@@ -5,3 +5,9 @@
 .grid-flow-col {
     grid-auto-flow: column;
 }
+
+.grid-areas-3x3 {
+    grid-template-areas: 
+    "A B C"
+    "D E F";
+}
