@@ -70,3 +70,56 @@
         }
     }
 }
+
+#contact {
+    padding-bottom: 200px;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: 1366px;
+}
+
+#contact > div {
+    justify-content: center;
+    gap: 16px;
+    padding-top: 48px;
+
+    .box-button {
+        width: 400px;
+        background-color: var(--gray-400);
+        border-radius: 8px;
+        padding: 20px;
+        justify-content: space-between;
+        text-decoration: none;
+        
+        div {
+            align-items: center;
+            gap: 12px;
+            color: var(--gray-200);
+
+            img {
+                width: 28px;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+
+            span {
+                color: inherit;
+                font: var(--text-md);
+            }
+        }
+
+        .icon {
+            background-image: url(../assets/icons/ArrowUpRight.svg);
+            width: 28px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+
+        &:hover {
+            border: 1.5px solid var(--blue);
+
+            div span {
+                color: var(--blue);
+            }
+        }
+    }
+}
